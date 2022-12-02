@@ -4,7 +4,7 @@ import '../shared/dialog_utils.dart';
 import 'products_manager.dart';
 import 'package:flutter/material.dart';
 import '../screen.dart';
-
+ 
 class EditProductsScreen extends StatefulWidget {
   static const routeName = '/edit-product';
   EditProductsScreen(
