@@ -5,7 +5,7 @@ class Product {
   final String description;
   final double price;
   final String imageUrl;
-  final ValueNotifier<bool> _isFavorite;
+  final ValueNotifier<bool> _isFavorite; 
 
   Product({
     this.id,
