@@ -14,7 +14,7 @@ class ProductsOverviewScreen extends StatefulWidget {
   @override
   State<ProductsOverviewScreen> createState() => _ProductOverviewScreenState();
 }
-
+ 
 class _ProductOverviewScreenState extends State<ProductsOverviewScreen> {
   var _showOnlyFavorites = false;
 
