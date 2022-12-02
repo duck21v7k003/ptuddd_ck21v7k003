@@ -6,7 +6,7 @@ import '../../models/product.dart';
 import 'package:flutter/foundation.dart';
 import 'package:provider/provider.dart';
 import '../screen.dart';
-import './edit_product_screen.dart';
+import './edit_product_screen.dart'; 
 class ProductsManager with ChangeNotifier {
   final List<Product> _items = [
     Product(
