@@ -8,7 +8,7 @@ import '../screen.dart';
 class CartScreen extends StatelessWidget {
   static const routeName = '/cart';
   const CartScreen({super.key});
-
+ 
   @override
   Widget build(BuildContext context) {
     final cart = context.watch<CartManager>();
