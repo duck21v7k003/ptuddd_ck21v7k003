@@ -2,7 +2,7 @@ import 'package:flutter/foundation.dart';
 import '../../models/cart_item.dart';
 import '../../models/product.dart';
 import 'package:provider/provider.dart';
-import '../screen.dart';
+import '../screen.dart'; 
 
 class CartManager with ChangeNotifier {
   Map<String, CartItem> _items = {

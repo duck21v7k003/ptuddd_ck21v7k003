@@ -5,7 +5,7 @@ import '../screen.dart';
 import 'package:provider/provider.dart';
 class CartItemCard extends StatelessWidget {
   final String productId;
-  final CartItem cardItem;
+  final CartItem cardItem; 
 
   const CartItemCard({
     required this.productId,
